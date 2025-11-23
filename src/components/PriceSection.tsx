@@ -21,7 +21,7 @@ export const PriceSection = () => {
               
               <div className="border-t-2 border-border pt-6">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-2xl font-semibold text-muted-foreground">Valor Total:</span>
+                  <span className="text-2xl font-semibold text-muted-foreground">Valor:</span>
                   <span className="text-3xl font-bold text-muted-foreground line-through">R$ 97 </span>
                 </div>
                 
