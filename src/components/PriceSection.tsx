@@ -15,14 +15,7 @@ export const PriceSection = () => {
           
           <Card className="shadow-elevated border-2 border-primary mb-8">
             <CardContent className="p-8">
-              <div className="space-y-4 mb-8">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                    <span className="text-lg text-foreground">{benefit}</span>
-                  </div>
-                ))}
-              </div>
+              
               
               <div className="border-t-2 border-border pt-6">
                 <div className="flex items-center justify-between mb-4">
@@ -36,7 +29,7 @@ export const PriceSection = () => {
                     <p className="text-xl font-semibold">Investimento HOJE</p>
                   </div>
                   <div className="text-6xl font-bold mb-2">R$ 27</div>
-                  <p className="text-xl opacity-90">Pagamento único • Acesso imediato</p>
+                  <p className="text-xl opacity-90">Pagamento único • Acesso imediato e vitalício     </p>
                 </div>
               </div>
             </CardContent>
