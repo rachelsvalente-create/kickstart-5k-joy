@@ -1,0 +1,216 @@
+/*
+Theme Name: CorridaKickstart
+Theme URI: https://seu-site.com
+Description: Tema personalizado para landing page CorridaKickstart
+Version: 1.0
+Author: Seu Nome
+Author URI: https://seu-site.com
+*/
+
+:root {
+  --primary: 16 100% 60%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 65% 40%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 16 100% 50%;
+  --accent-foreground: 0 0% 100%;
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --border: 214 32% 91%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --gradient-primary: linear-gradient(135deg, hsl(16 100% 60%), hsl(16 100% 70%));
+  --gradient-secondary: linear-gradient(135deg, hsl(210 65% 40%), hsl(210 65% 50%));
+  --shadow-elegant: 0 10px 30px -10px hsl(16 100% 60% / 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: hsl(var(--foreground));
+  background-color: hsl(var(--background));
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(16, 100%, 60%, 0.9), rgba(210, 65%, 40%, 0.9)), url('assets/hero-runner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 16px 40px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-cta {
+  background: hsl(var(--accent));
+  color: white;
+  box-shadow: var(--shadow-elegant);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px -10px hsl(16 100% 60% / 0.5);
+}
+
+/* Sections */
+.section {
+  padding: 80px 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: hsl(var(--primary));
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Cards */
+.card {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-elegant);
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  gap: 30px;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Icon Styles */
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  color: hsl(var(--primary));
+}
+
+/* Price Section */
+.price-box {
+  background: var(--gradient-primary);
+  color: white;
+  padding: 60px;
+  border-radius: 24px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: var(--shadow-elegant);
+}
+
+.price-original {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.price-current {
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+/* Testimonial */
+.testimonial {
+  background: hsl(var(--muted));
+  padding: 40px;
+  border-radius: 16px;
+  border-left: 4px solid hsl(var(--primary));
+  margin: 30px 0;
+}
+
+.testimonial-author {
+  font-weight: 700;
+  color: hsl(var(--primary));
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.125rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .price-current {
+    font-size: 3rem;
+  }
+}

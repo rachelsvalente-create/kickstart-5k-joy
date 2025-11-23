@@ -1,0 +1,26 @@
+<?php
+/**
+ * Template padrão - redireciona para home
+ */
+
+get_header();
+?>
+
+<div class="container" style="padding: 80px 20px; text-align: center;">
+    <h1 style="font-size: 2.5rem; color: hsl(var(--primary)); margin-bottom: 20px;">Bem-vindo ao CorridaKickstart™</h1>
+    <p style="font-size: 1.25rem; margin-bottom: 30px;">Para ver a landing page, crie uma nova página no WordPress e selecione o template "Landing Page CorridaKickstart"</p>
+    
+    <div style="background: hsl(var(--muted)); padding: 30px; border-radius: 12px; max-width: 600px; margin: 0 auto; text-align: left;">
+        <h2 style="color: hsl(var(--primary)); margin-bottom: 15px;">📋 Como Configurar:</h2>
+        <ol style="line-height: 2;">
+            <li>Vá em <strong>Páginas > Adicionar Nova</strong></li>
+            <li>Dê um título (ex: "Home" ou "Landing Page")</li>
+            <li>No lado direito, em <strong>"Atributos da Página"</strong>, selecione o Template: <strong>"Landing Page CorridaKickstart"</strong></li>
+            <li>Na sidebar, configure o <strong>Link do Botão CTA</strong> com sua URL de pagamento</li>
+            <li>Publique a página</li>
+            <li>Vá em <strong>Configurações > Leitura</strong> e defina esta página como página inicial</li>
+        </ol>
+    </div>
+</div>
+
+<?php get_footer(); ?>

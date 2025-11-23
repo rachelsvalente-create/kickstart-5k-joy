@@ -1,0 +1,13 @@
+    <footer style="background: hsl(var(--muted)); padding: 40px 20px; text-align: center; margin-top: 80px;">
+        <div class="container">
+            <p style="color: hsl(var(--muted-foreground)); margin-bottom: 10px;">
+                &copy; <?php echo date('Y'); ?> CorridaKickstart™. Todos os direitos reservados.
+            </p>
+            <p style="color: hsl(var(--muted-foreground)); font-size: 0.875rem;">
+                Transformando iniciantes em corredores confiantes.
+            </p>
+        </div>
+    </footer>
+    <?php wp_footer(); ?>
+</body>
+</html>
