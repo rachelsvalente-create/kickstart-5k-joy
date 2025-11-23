@@ -39,7 +39,7 @@ export const PriceSection = () => {
           
           <div className="text-center mb-8">
             <p className="text-2xl font-bold text-foreground mb-2">
-              Por que apenas R$ 27?
+              Valor:
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Porque acreditamos que saúde não deve ser privilégio. O preço de uma pizza não deve ser a desculpa 
