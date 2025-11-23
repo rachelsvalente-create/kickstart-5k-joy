@@ -16,7 +16,12 @@ export const PriceSection = () => {
           <Card className="shadow-elevated border-2 border-primary mb-8">
             <CardContent className="p-8">
               <div className="space-y-4 mb-8">
-                {benefits.map((benefit, index) => {})}
+                {benefits.map((benefit, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <span className="text-lg text-foreground">{benefit}</span>
+                  </div>
+                ))}
               </div>
               
               <div className="border-t-2 border-border pt-6">
@@ -68,8 +73,10 @@ export const PriceSection = () => {
           </div>
           
           <div className="text-center">
-            <Button variant="cta" size="xl" className="w-full md:w-auto text-xl py-8 px-16">
-              GARANTIR MINHA VAGA AGORA
+            <Button variant="cta" size="xl" className="w-full md:w-auto text-xl py-8 px-16" asChild>
+              <a href="https://seu-link-de-pagamento.com" target="_blank" rel="noopener noreferrer">
+                GARANTIR MINHA VAGA AGORA
+              </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-4">
               ⚡ Acesso imediato após a confirmação do pagamento
