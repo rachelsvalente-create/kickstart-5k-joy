@@ -1,0 +1,392 @@
+<?php
+/**
+ * Template Name: Landing Page CorridaKickstart
+ */
+
+get_header();
+$cta_link = get_cta_link();
+?>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Corra Seus Primeiros 5K em 8 Semanas Sem Dor e Com Confiança Total</h1>
+            <p>O método completo que já ajudou mais de 10.000 iniciantes a conquistarem sua primeira corrida com segurança e prazer</p>
+            <a href="#preco" class="btn btn-cta">Quero Começar Agora</a>
+        </div>
+    </div>
+</section>
+
+<!-- Problem Section -->
+<section class="section" style="background: hsl(var(--muted));">
+    <div class="container">
+        <h2 class="section-title">Você Sonha em Correr, Mas Algo Sempre Impede?</h2>
+        <p class="section-subtitle">A frustração de querer começar mas não saber como fazer do jeito certo</p>
+        
+        <div class="card">
+            <p style="font-size: 1.125rem; line-height: 1.8;">
+                Você assiste vídeos no YouTube, tenta seguir dicas aleatórias da internet, mas no fim das contas sempre acontece a mesma coisa: ou você sente dores que te fazem parar, ou a falta de resultados te desmotiva completamente. 
+            </p>
+            <p style="font-size: 1.125rem; line-height: 1.8; margin-top: 20px;">
+                Você não está sozinho. <strong style="color: hsl(var(--primary));">87% dos iniciantes desistem nos primeiros 30 dias</strong> por não terem um método estruturado que respeite suas limitações e progrida de forma segura.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Solution Section -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Imagine Ter Um Plano Completo Que Te Guia Passo a Passo</h2>
+        <p class="section-subtitle">8 pilares fundamentais que transformam iniciantes em corredores confiantes</p>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">🎯 Progressão Científica</h3>
+                <p>Um plano de 8 semanas baseado em estudos que aumenta sua resistência sem sobrecarregar seu corpo</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">🛡️ Prevenção de Lesões</h3>
+                <p>Técnicas específicas de aquecimento e alongamento que protegem suas articulações e músculos</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">👟 Técnica Correta</h3>
+                <p>Aprenda a pisar certo e evite os erros fatais que causam 90% das lesões em iniciantes</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">💪 Fortalecimento Direcionado</h3>
+                <p>Exercícios simples de 10 minutos que fortalecem os músculos essenciais para corrida</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">🍎 Nutrição Estratégica</h3>
+                <p>O que comer antes e depois dos treinos para ter energia e recuperação máxima</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">🧠 Mentalidade Vencedora</h3>
+                <p>Técnicas psicológicas que eliminam a procrastinação e mantêm você motivado todos os dias</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">📊 Sistema de Acompanhamento</h3>
+                <p>Planilhas práticas para registrar sua evolução e celebrar cada conquista</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">🏃‍♂️ Treinos Flexíveis</h3>
+                <p>Adapte os treinos à sua rotina sem perder efetividade, mesmo com apenas 30 minutos disponíveis</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Truth Section -->
+<section class="section" style="background: hsl(var(--muted));">
+    <div class="container">
+        <h2 class="section-title">A Verdade Que Ninguém Te Conta</h2>
+        <p class="section-subtitle">O verdadeiro culpado pelo seu fracasso não é você</p>
+        
+        <div class="card">
+            <p style="font-size: 1.125rem; line-height: 1.8;">
+                <strong style="color: hsl(var(--primary)); font-size: 1.5rem;">A indústria fitness quer que você acredite que corrida é simples:</strong> "é só colocar o tênis e sair correndo". Essa mentira conveniente gera BILHÕES vendendo soluções milagrosas para as lesões e frustrações que ELA MESMA causou.
+            </p>
+            <p style="font-size: 1.125rem; line-height: 1.8; margin-top: 20px;">
+                A verdade? <strong style="color: hsl(var(--accent));">Você precisa de um MÉTODO, não de motivação.</strong> Precisa de PROGRESSÃO, não de promessas vazias. Precisa de alguém que entenda que você está começando do ZERO e respeite isso.
+            </p>
+            <p style="font-size: 1.125rem; line-height: 1.8; margin-top: 20px; background: hsl(var(--primary) / 0.1); padding: 20px; border-radius: 8px;">
+                💡 <strong>O inimigo não é sua falta de preparo físico.</strong> É a falta de um sistema que te guie com segurança desde o primeiro dia até a linha de chegada dos seus 5K.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Light at the End Section -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Existe Uma Luz no Fim do Túnel</h2>
+        <p class="section-subtitle">O CorridaKickstart™ oferece tudo que você precisa</p>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">✅ Plano de 8 Semanas Detalhado</h3>
+                <p>Cada treino planejado com duração, intensidade e objetivos claros</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">✅ Guia de Técnica de Corrida</h3>
+                <p>Vídeos demonstrativos da postura e pisada corretas</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">✅ Manual de Prevenção de Lesões</h3>
+                <p>Protocolo completo de aquecimento, alongamento e recuperação</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">✅ Rotina de Fortalecimento</h3>
+                <p>Exercícios específicos para corredores iniciantes (sem academia)</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">✅ Guia Nutricional</h3>
+                <p>Estratégias de alimentação para energia e recuperação</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">✅ Planilhas de Acompanhamento</h3>
+                <p>Registre cada treino e veja sua evolução semana a semana</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">✅ Checklist de Equipamentos</h3>
+                <p>Saiba exatamente o que você realmente precisa (e o que é desperdício)</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">✅ Protocolo Anti-Desistência</h3>
+                <p>Técnicas psicológicas para manter a consistência nos dias difíceis</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Objections Section -->
+<section class="section" style="background: hsl(var(--muted));">
+    <div class="container">
+        <h2 class="section-title">Quebrando Suas Objeções</h2>
+        <p class="section-subtitle">As 4 principais dúvidas respondidas</p>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3 style="color: hsl(var(--accent)); font-size: 1.25rem; margin-bottom: 15px;">❓ "Não tenho tempo para treinar"</h3>
+                <p><strong>A realidade:</strong> Maria, 42 anos, mãe de dois filhos e profissional em tempo integral, completou o programa treinando apenas 30 minutos, 3x por semana, às 6h da manhã antes das crianças acordarem. O método é flexível para SE ENCAIXAR na sua rotina, não para DOMINAR ela.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--accent)); font-size: 1.25rem; margin-bottom: 15px;">❓ "Estou fora de forma demais"</h3>
+                <p><strong>A realidade:</strong> Carlos tinha 95kg e não fazia exercícios há 10 anos quando começou. O programa começa com caminhadas intercaladas. Na semana 1, você vai correr apenas 1 minuto seguido. Sim, 60 segundos. Porque o método respeita ONDE você está, não onde "deveria" estar.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--accent)); font-size: 1.25rem; margin-bottom: 15px;">❓ "E se eu me lesionar?"</h3>
+                <p><strong>A realidade:</strong> O programa foi desenvolvido por profissionais de educação física e fisioterapeutas. Cada treino inclui aquecimento e recuperação. Ana tinha histórico de dor no joelho, seguiu os protocolos preventivos à risca e completou os 5K sem nenhuma lesão nova.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--accent)); font-size: 1.25rem; margin-bottom: 15px;">❓ "E se não der certo pra mim?"</h3>
+                <p><strong>A realidade:</strong> Pedro tentou 3 vezes começar a correr por conta própria e sempre desistia. Com o CorridaKickstart™, ele seguiu o plano estruturado, teve suporte nas planilhas de acompanhamento e cruzou a linha de chegada dos 5K pela primeira vez na vida. O sistema funciona se você seguir o método.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Differential Section -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Por Que o CorridaKickstart™ É Diferente?</h2>
+        <p class="section-subtitle">4 provas lógicas que tornam este método único</p>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">📚 Baseado em Ciência</h3>
+                <p>Desenvolvido seguindo os princípios do Couch to 5K, método validado por estudos de fisiologia do exercício e usado por milhões de iniciantes ao redor do mundo com taxa de sucesso comprovada.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">👥 Testado Por Iniciantes Reais</h3>
+                <p>Não foi criado por atletas de elite. Foi desenvolvido E testado por pessoas comuns com rotinas cheias, que precisavam de um método que REALMENTE funcionasse no mundo real, não apenas na teoria.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">🎯 Progressão Inteligente</h3>
+                <p>Enquanto outros métodos te jogam na corrida sem preparação, o CorridaKickstart™ aumenta a carga em apenas 10% por semana - o ritmo cientificamente comprovado para adaptação sem lesões.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">🔄 Sistema Completo</h3>
+                <p>Não é apenas um plano de treinos. É um SISTEMA com técnica, prevenção, fortalecimento, nutrição e mentalidade. Tudo que você precisa em um único lugar, sem precisar ficar caçando informações na internet.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="section" style="background: hsl(var(--muted));">
+    <div class="container">
+        <h2 class="section-title">Pessoas Reais, Resultados Reais</h2>
+        <p class="section-subtitle">Como você pode adicionar depoimentos autênticos</p>
+        
+        <div class="testimonial">
+            <p style="font-size: 1.125rem; font-style: italic; line-height: 1.8;">
+                "Adicione aqui depoimentos reais em vídeo ou texto de alunos que completaram o programa. Mostre FOTOS de antes e depois, capturas de tela dos apps de corrida mostrando a evolução. AUTENTICIDADE é tudo - um depoimento real vale mais que 100 promessas."
+            </p>
+            <p class="testimonial-author">💡 Dica de Implementação</p>
+        </div>
+        
+        <div class="testimonial">
+            <p style="font-size: 1.125rem; line-height: 1.8;">
+                <strong>Como Coletar Depoimentos:</strong><br>
+                1. Entre em contato com alunos que completaram o programa<br>
+                2. Peça foto/vídeo + permissão para uso<br>
+                3. Faça perguntas específicas: "Qual era seu maior medo?" "O que mudou?" "Quanto tempo levou?"<br>
+                4. Depoimentos em vídeo convertem 3x mais que texto
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Learning Section -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">O Que Você Vai Aprender Na Prática</h2>
+        <p class="section-subtitle">6 módulos transformadores</p>
+        
+        <div class="grid grid-3">
+            <div class="card">
+                <div class="icon">📋</div>
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">Plano de Treino 8 Semanas</h3>
+                <p>Programe cada dia de treino com precisão, do iniciante absoluto aos primeiros 5K</p>
+            </div>
+            
+            <div class="card">
+                <div class="icon">👟</div>
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">Técnica e Postura</h3>
+                <p>Domine a mecânica correta da corrida para performance e prevenção</p>
+            </div>
+            
+            <div class="card">
+                <div class="icon">🛡️</div>
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">Prevenção de Lesões</h3>
+                <p>Protocolos de aquecimento, alongamento e recuperação muscular</p>
+            </div>
+            
+            <div class="card">
+                <div class="icon">💪</div>
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">Fortalecimento Funcional</h3>
+                <p>Exercícios específicos para corredores sem necessidade de academia</p>
+            </div>
+            
+            <div class="card">
+                <div class="icon">🍎</div>
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">Nutrição para Corredores</h3>
+                <p>O que, quando e quanto comer para energia e recuperação otimizadas</p>
+            </div>
+            
+            <div class="card">
+                <div class="icon">🧠</div>
+                <h3 style="color: hsl(var(--primary)); margin-bottom: 10px;">Mentalidade e Motivação</h3>
+                <p>Estratégias psicológicas para manter consistência e vencer a procrastinação</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Target Audience Section -->
+<section class="section" style="background: hsl(var(--muted));">
+    <div class="container">
+        <h2 class="section-title">Para Quem É o CorridaKickstart™?</h2>
+        <p class="section-subtitle">Este programa foi feito especialmente para você se...</p>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.25rem; margin-bottom: 15px;">🏃‍♀️ Você é Sedentário(a) ou Iniciante</h3>
+                <p>Nunca correu na vida ou parou há anos. Sente aquele aperto no peito só de pensar em correr uma quadra. O programa começa do ABSOLUTO ZERO, respeitando suas limitações atuais e construindo base sólida.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.25rem; margin-bottom: 15px;">💼 Profissional Ocupado(a)</h3>
+                <p>Sua agenda está sempre lotada. Treinos de 30 minutos, 3x na semana, que cabem no seu dia sem bagunçar toda sua rotina. Flexibilidade para treinar de manhã, tarde ou noite.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.25rem; margin-bottom: 15px;">👨‍👩‍👧‍👦 Pai/Mãe de Família</h3>
+                <p>Você coloca todo mundo em primeiro lugar, menos você. Chegou a hora de cuidar da SUA saúde sem culpa. 30 minutos só seus, 3x na semana, para ser a versão mais saudável e energizada para sua família.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.25rem; margin-bottom: 15px;">🎯 Tentou e Desistiu Antes</h3>
+                <p>Já começou 3, 4, 5 vezes e sempre desistiu. Frustração te corroe. Desta vez é diferente: você terá um MÉTODO estruturado, não apenas motivação temporária. Sistema prova de desistência.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.25rem; margin-bottom: 15px;">🏥 Tem Medo de Lesões</h3>
+                <p>Já teve lesões antes ou tem receio de se machucar. O protocolo de prevenção e progressão gradual foi feito pensando em VOCÊ. Segurança em primeiro lugar, sempre.</p>
+            </div>
+            
+            <div class="card">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.25rem; margin-bottom: 15px;">🎖️ Quer Conquistar uma Meta</h3>
+                <p>Você não quer só "fazer exercício". Quer provar para SI MESMO(A) que é capaz. Completar 5K não é sobre distância, é sobre transformação pessoal. E você merece essa vitória.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Price Section -->
+<section id="preco" class="section">
+    <div class="container">
+        <h2 class="section-title">Quanto Custa Sua Transformação?</h2>
+        <p class="section-subtitle">Investimento menor que uma mensalidade de academia</p>
+        
+        <div class="price-box">
+            <h3 style="font-size: 2rem; margin-bottom: 20px;">CorridaKickstart™</h3>
+            
+            <div style="margin: 30px 0;">
+                <p style="font-size: 1rem; opacity: 0.9; margin-bottom: 10px;">Valor individual de cada componente:</p>
+                <p style="font-size: 1.125rem;">Plano de Treinos 8 Semanas: R$ 197</p>
+                <p style="font-size: 1.125rem;">Guia de Técnica e Prevenção: R$ 97</p>
+                <p style="font-size: 1.125rem;">Manual de Fortalecimento: R$ 67</p>
+                <p style="font-size: 1.125rem;">Guia Nutricional: R$ 47</p>
+                <p style="font-size: 1.125rem; margin-bottom: 15px;">Planilhas e Protocolos: R$ 37</p>
+                <p style="font-size: 1.25rem; font-weight: 700; border-top: 2px solid rgba(255,255,255,0.3); padding-top: 15px;">VALOR TOTAL: R$ 445</p>
+            </div>
+            
+            <div style="margin: 40px 0;">
+                <p class="price-original">De R$ 445,00</p>
+                <p style="font-size: 1.125rem; margin-bottom: 10px;">Por apenas:</p>
+                <p class="price-current">R$ 27</p>
+                <p style="font-size: 1rem; opacity: 0.9;">Pagamento único • Acesso imediato</p>
+            </div>
+            
+            <div style="margin: 30px 0;">
+                <p style="font-size: 1.125rem; line-height: 1.6; margin-bottom: 20px;">✅ Programa completo de 8 semanas<br>✅ Acesso vitalício ao conteúdo<br>✅ Atualizações gratuitas<br>✅ Garantia de 7 dias</p>
+            </div>
+            
+            <a href="<?php echo esc_url($cta_link); ?>" class="btn btn-cta" style="background: white; color: hsl(var(--primary)); font-size: 1.25rem; padding: 20px 50px; display: inline-block; margin-top: 20px;">
+                GARANTIR MINHA VAGA AGORA
+            </a>
+            
+            <p style="font-size: 0.875rem; margin-top: 20px; opacity: 0.8;">🔒 Pagamento 100% seguro</p>
+        </div>
+        
+        <div style="max-width: 600px; margin: 40px auto 0; text-align: center;">
+            <div style="background: hsl(var(--card)); border: 2px solid hsl(var(--primary)); border-radius: 12px; padding: 30px;">
+                <h3 style="color: hsl(var(--primary)); font-size: 1.5rem; margin-bottom: 15px;">🛡️ Garantia Incondicional de 7 Dias</h3>
+                <p style="font-size: 1.125rem; line-height: 1.6;">
+                    Experimente o programa por 7 dias. Se por QUALQUER motivo você não estiver satisfeito, devolvemos 100% do seu dinheiro. Sem perguntas, sem complicação.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Final CTA Section -->
+<section class="section" style="background: var(--gradient-primary); color: white; text-align: center;">
+    <div class="container">
+        <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 20px; color: white;">Sua Jornada Começa Agora</h2>
+        <p style="font-size: 1.25rem; margin-bottom: 30px; opacity: 0.95;">
+            Daqui 8 semanas você pode estar cruzando a linha de chegada dos seus primeiros 5K<br>
+            Ou pode estar no mesmo lugar, com os mesmos arrependimentos
+        </p>
+        <a href="<?php echo esc_url($cta_link); ?>" class="btn btn-cta" style="background: white; color: hsl(var(--primary)); font-size: 1.25rem; padding: 20px 50px;">
+            SIM, QUERO COMEÇAR AGORA
+        </a>
+        <p style="font-size: 0.875rem; margin-top: 20px; opacity: 0.8;">⚡ Acesso imediato após confirmação do pagamento</p>
+    </div>
+</section>
+
+<?php get_footer(); ?>
