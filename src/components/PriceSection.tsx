@@ -1,21 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, Gift, Clock, Shield } from "lucide-react";
-
-const benefits = [
-  "Programa completo de 8 semanas (valor: R$ 297)",
-  "Vídeos demonstrativos de cada exercício (valor: R$ 147)",
-  "Plano de fortalecimento e prevenção (valor: R$ 127)",
-  "Guia de nutrição para corredores (valor: R$ 97)",
-  "Grupo exclusivo de suporte (valor: R$ 197)",
-  "Planilhas de acompanhamento (valor: R$ 47)",
-  "Acesso vitalício ao conteúdo (valor: R$ 397)",
-  "Bônus: Audiobook motivacional (valor: R$ 77)"
-];
-
+const benefits = ["Programa completo de 8 semanas (valor: R$ 297)", "Vídeos demonstrativos de cada exercício (valor: R$ 147)", "Plano de fortalecimento e prevenção (valor: R$ 127)", "Guia de nutrição para corredores (valor: R$ 97)", "Grupo exclusivo de suporte (valor: R$ 197)", "Planilhas de acompanhamento (valor: R$ 47)", "Acesso vitalício ao conteúdo (valor: R$ 397)", "Bônus: Audiobook motivacional (valor: R$ 77)"];
 export const PriceSection = () => {
-  return (
-    <section id="price-section" className="py-20 bg-background">
+  return <section id="price-section" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
@@ -28,18 +16,13 @@ export const PriceSection = () => {
           <Card className="shadow-elevated border-2 border-primary mb-8">
             <CardContent className="p-8">
               <div className="space-y-4 mb-8">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                    <span className="text-lg text-foreground">{benefit}</span>
-                  </div>
-                ))}
+                {benefits.map((benefit, index) => {})}
               </div>
               
               <div className="border-t-2 border-border pt-6">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-2xl font-semibold text-muted-foreground">Valor Total:</span>
-                  <span className="text-3xl font-bold text-muted-foreground line-through">R$ 1.386</span>
+                  <span className="text-3xl font-bold text-muted-foreground line-through">R$ 97 </span>
                 </div>
                 
                 <div className="bg-gradient-hero rounded-lg p-8 text-center text-white">
@@ -85,11 +68,7 @@ export const PriceSection = () => {
           </div>
           
           <div className="text-center">
-            <Button 
-              variant="cta" 
-              size="xl"
-              className="w-full md:w-auto text-xl py-8 px-16"
-            >
+            <Button variant="cta" size="xl" className="w-full md:w-auto text-xl py-8 px-16">
               GARANTIR MINHA VAGA AGORA
             </Button>
             <p className="text-sm text-muted-foreground mt-4">
@@ -98,6 +77,5 @@ export const PriceSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
