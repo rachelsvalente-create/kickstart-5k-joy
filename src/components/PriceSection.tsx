@@ -67,7 +67,7 @@ export const PriceSection = () => {
           
           <div className="text-center">
             <Button variant="cta" size="xl" className="w-full md:w-auto text-xl py-8 px-16" asChild>
-              <a href="https://seu-link-de-pagamento.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://pay.kiwify.com.br/shonsuA" target="_blank" rel="noopener noreferrer">
                 GARANTIR MINHA VAGA AGORA
               </a>
             </Button>
